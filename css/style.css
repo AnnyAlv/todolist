@@ -1,0 +1,103 @@
+* {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+
+body {
+    background: #5db05d;
+    height: 100vh;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+}
+
+ .container {
+   border: solid 8px  rgb(24, 153, 192);
+   border-radius: 20px;
+    max-width:100%;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    padding: 0 30px;
+
+} 
+
+.perfil h1 {
+padding-bottom: 20px;
+    
+}
+.perfil span {
+
+    letter-spacing: 1px;
+}
+
+#fecha {
+  
+    padding: 50px 15px 5px 0px;
+} 
+ 
+.agregar-tarea {
+    background-color: white ;
+    width: 100%;
+    height: 70px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin: 40px 0;
+
+}
+
+.agregar-tarea i {
+    font-size: 50px;
+    color: rgb(24, 153, 192) ;
+    
+}
+.agregar-tarea i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.agregar-tarea input {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    padding-left:10px ;
+}
+
+.agregar-tarea input::placeholder {
+    font-size: 1.1rem;
+ } 
+ 
+ .seccion-tarea h3 {
+    margin-bottom: 20px; 
+}
+
+.seccion-tarea li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius:15px ;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.seccion-tarea > ul p {
+    font-size: 1.2rem;
+}
+.seccion-tarea i {
+    font-size: 20px;
+}
+
+.seccion-tarea i:hover {
+    color: white;
+    cursor: pointer;
+}
+.line-through{
+    text-decoration: line-through;
+    color : white;
+} 
